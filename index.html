@@ -6,28 +6,29 @@
   <title>Bridgeway - WIL Placement Platform</title>
   <link rel="stylesheet" href="styles/style.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" integrity="sha384-0evSXbIWVMQvKkQQQQzWrQjQ1vXA=" crossorigin="anonymous">
-  <h1>Bridgeway</h1>
-  <img src="WIL.png" alt="Bridgeway Logo">
-  <p>Connecting Students and Companies for Work-Integrated Learning</p>
 </head>
 <body>
-  <header>
-    <h1>Bridgeway</h1>
-    <p>Connecting Students and Companies for Work-Integrated Learning</p>
+  <header class="container py-3 bg-light">  <div class="d-flex justify-content-between align-items-center">  <h1>Bridgeway</h1>
+      <img src="WIL.png" alt="Bridgeway Logo">
+    </div>
+    <p class="text-muted">Connecting Students and Companies for Work-Integrated Learning</p>
   </header>
-  <main>
-    <section class="about">
-      <h2>Welcome to Bridgeway!</h2>
-      <p>Bridgeway helps students find valuable WIL placements and companies discover talented individuals for their projects.</p>
+  <main class="container mt-5">  <section class="about row">  <div class="col-md-6">
+        <h2>Welcome to Bridgeway!</h2>
+        <p>Bridgeway helps students find valuable WIL placements and companies discover talented individuals for their projects.</p>
+      </div>
+      <div class="col-md-6">
+        </div>
     </section>
-    <section class="search">
-      <h2>Find Your Perfect WIL Placement</h2>
-      <form id="search-form">
-        <label for="skills">Search by Skills:</label>
-        <input type="text" id="skills" name="skills" placeholder="e.g., Web Development, Marketing">
-        <button type="submit">Search</button>
-      </form>
-      <ul id="search-results"></ul>
+    <section class="search row">  <div class="col-md-12">
+        <h2>Find Your Perfect WIL Placement</h2>
+        <form id="search-form">
+          <label for="skills">Search by Skills:</label>
+          <input type="text" id="skills" name="skills" placeholder="e.g., Web Development, Marketing">
+          <button type="submit">Search</button>
+        </form>
+        <ul id="search-results"></ul>
+      </div>
     </section>
   </main>
   <script src="scripts/script.js"></script>
