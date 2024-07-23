@@ -1,4 +1,12 @@
----
----
+body {
+  font-family: Arial, sans-serif;
+}
 
-@import "{{ site.theme }}";
+header h1 {
+  font-size: 1.5em;
+}
+
+.text-muted {
+  color: #868e96;  /* Example color customization */
+}
+
