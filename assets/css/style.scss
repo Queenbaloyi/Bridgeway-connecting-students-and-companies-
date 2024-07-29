@@ -1,7 +1,27 @@
 body {
-  background-color: #f0f0f0; /* Light gray */
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2; /* Light gray background */
 }
 
 h1 {
   color: #ff6347; /* Bright orange */
 }
+
+p {
+  color: #333; /* Dark text for contrast */
+}
+
+a {
+  color: #007bff; /* Blue link color */
+  text-decoration: none;
+}
+
+.button {
+  background-color: #ff9900; /* Bright orange button */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
